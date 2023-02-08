@@ -7,10 +7,7 @@
     "build": "rollup -c",
     "dev": "node ./dev.js"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
@@ -23,6 +20,8 @@
     "@types/react-dom": "^18.0.10",
     "postcss": "^8.4.21",
     "prettier": "^2.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.12.1",
     "rollup-plugin-dts": "^5.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -34,7 +33,9 @@
   },
   "peerDependencies": {
     "@sone-dao/sone-react-placeholder": "^1.2.1",
-    "@sone-dao/tone-react-containers": "^1.0.0"
+    "@sone-dao/tone-react-containers": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "files": [
     "dist"
